@@ -35,7 +35,8 @@ class MainClass
         }
         return false;
     }
-
+    
+    //Checks each piece against the others to see if any can attack each other
     private static string EightQueens(string[] strArr)
     {
         Point[] pointArr = StrArrToPointArr(strArr);
